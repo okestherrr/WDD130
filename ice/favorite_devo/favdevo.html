@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+ 
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+       <style> 
+    form {
+      max-width: 200px;
+      margin: 10px auto;
+      font-family: Arial, sans-serif;
+    }
+
+    table{
+      border-collapse: collapse;
+      width: 60%;
+      margin: 300px auto ;
+    }
+
+    input, button {
+      display: inline-flexbox;
+      width:85%;
+      padding: 15px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+  </style>
+    <table border="1">
+  <tr>
+    <th>Speaker</th>
+    <th>Title</th>
+    <th>Location</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>Pres Meredith</td>
+    <td>Welcome</td>
+    <td>BYU-I</td>
+    <td>2025</td>
+  </tr>
+  <tr>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+  </tr>
+</table>
+      </tr>
+    </table>
+      <div class="content-box">
+        <form action="/submit" method="post">
+        <input type="text" name="Speaker" placeholder="Speaker here">
+        <form action="/submit" method="post">
+        <input type="text" name="Title" placeholder="Title of talk">
+        <form action="/submit" method="post">
+        <input type="text" name="Location" placeholder="Location">
+         <form action="/submit" method="post">
+        <input type="Int" name="Year" placeholder="Year">
+        <button type="submit">Submit</button>
+        </form>
+        <!-- Add your devotional content here -->
+         
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3ece8;
+  color: #2e2e2e;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.info {
+  flex: 1;
+}
+
+.image img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.handle {
+  margin-top: 1rem;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.social-icons a {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  color: black;
+}

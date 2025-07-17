@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERSR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-image: none;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow-x: hidden;
+      }
+      .glow-card {
+        background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255,255,255,0.2);
+      }
+      .section-spotlight {
+        background: linear-gradient(to right, #fef3c7, #e0f2fe);
+        box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+      }
+    </style>
+  </head>
+  <body class="bg-white text-neutral-800 font-[Inter]">
+    <header class="p-6 md:p-10 bg-black text-white flex justify-between items-center shadow-xl sticky top-0 z-50">
+      <h1 class="text-3xl md:text-4xl font-bold tracking-tight">ERS</h1>
+      <nav class="navigation">
+        <a class="#aboutMe" href="">About Me</a>
+
+        <a class= "ICE"href ="../ice/index.html">Ice Challange</a>
+
+        <a class="WWR"href="../wwr/index.html">WWR</a>
+        <a class="Home" href="../aboutme.html">Home</a>
+      </nav>
+    </header>
+
+    <main class="p-6 md:p-10 max-w-5xl mx-auto">
+      <section id="about" class="mb-20 text-center section-spotlight p-10 rounded-2xl">
+        <h2 class="text-4xl font-extrabold mb-4 animate-pulse text-gray-800">Hey, I'm Esther </h2>
+        <p class="text-lg leading-relaxed max-w-2xl mx-auto text-neutral-700">
+I love blending creativity and logic to build functional projects. Whether I’m coding or exploring the world, I’m all about turning big ideas into polished, real-world results and making sure they can benefit those around me.        </p>
+      </section>
+
+      <section id="skills" class="mb-20">
+        <h2 class="text-2xl font-bold mb-6">Languages I am experienced with</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="bg-black text-white p-5 rounded-2xl shadow-xl hover:scale-105 transition-transform">
+            <h3 class="text-lg font-bold">HTML & CSS</h3>
+            <p class="text-sm mt-2">Clean, modern layouts that look good on every device.</p>
+          </div>
+          <div class="bg-gradient-to-r from-pink-500 to-purple-600 text-white p-5 rounded-2xl shadow-xl hover:scale-105 transition-transform">
+            <h3 class="text-lg font-bold">Python</h3>
+            <p class="text-sm mt-2">Powerful, readable code for automating tasks and building smart solutions.</p>
+          </div>
+
+          <div class="bg-gray-900 text-white p-5 rounded-2xl shadow-xl hover:scale-105 transition-transform">
+            <h3 class="text-lg font-bold">C#</h3>
+            <p class="text-sm mt-2">Enterprise-grade logic and performance for clean, maintainable software solutions.</p>
+          </div>
+          <div class="bg-blue-100 text-blue-800 p-5 rounded-2xl shadow-xl hover:scale-105 transition-transform">
+            <h3 class="text-lg font-bold">SQL</h3>
+            <p class="text-sm mt-2">Structured queries that turn raw data into clear, actionable insights.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="fun" class="mb-20">
+        <h2 class="text-2xl font-bold mb-4">Fun Facts</h2>
+        <div class="grid md:grid-cols-3 gap-4 text-lg">
+          <div class="p-5 rounded-xl bg-white border shadow text-gray-800">🎓 Loves to learn</div>
+          <div class="p-5 rounded-xl bg-white border shadow text-gray-800"> Interested in understanding how AI works and build upon it</div>
+          <div class="p-5 rounded-xl bg-white border shadow text-gray-800"> Dream job: Tech and Creativity and Helping people.</div>
+        </div>
+      </section>
+
+      <section class="mb-20 bg-gradient-to-r from-blue-50 to-purple-100 p-6 rounded-xl shadow-lg">
+        <blockquote class="italic text-neutral-700 text-xl">
+          "There is NOTHING IMPOSSIBLE to those who  WILL TRY"
+        </blockquote>
+        <cite class="block mt-2 text-right font-semibold text-gray-600">– Alexander the Great</cite>
+      </section>
+
+      <section class="mb-20">
+        <h2 class="text-2xl font-bold mb-4">Soft Skills</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <ul class="space-y-3 text-lg bg-white p-6 rounded-xl shadow">
+            <li>Attention to details</li>
+            <li>Creative</li>
+            <li>Critical Thinker</li>
+            <li>Good Communicator</li>
+            <li>Teamwork</li>
+          </ul>
+        
+      </section>
+
+      <section id="contact" class="mb-24">
+        <h2 class="text-2xl font-bold mb-4">Connect with me!</h2>
+        <div class="bg-black text-white p-6 rounded-xl shadow-lg">
+          <p>Email: <a href="mailto:esther@example.com" class="underline text-blue-400">Okesther@byui.edu</a></p>
+          <p>LinkedIn: <a href="#" class="underline text-blue-400">linkedin.com/in/esther-scott</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-neutral-100 text-center text-sm text-neutral-500 p-4">
+      &copy; 2025 Esther Scott. All rights reserved.
+    </footer>
+  </body>
+</html>
